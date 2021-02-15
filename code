@@ -1,0 +1,51 @@
+ #include<iostream>
+using namespace std;
+int main() 
+{ 
+ int r,c,care_areas;
+ cout<<" Enter number of rows and columns "<<endl;
+ cin>>r>>c;
+ cout<<"Enter number of care areas"<<endl;
+ cin>>c;
+ for(int i=0;i<r;i++)
+ {
+ 	for(int j=0;j<c;j++)
+ 	{
+ 		unordered_set<pair<int,int>>ar;
+ 		for(int q=0;q<c;q++)
+ 		{
+ 			cout<<"Enter the values of top left x and y "<<endl;
+			 cin>>x_topleft>>y_topleft;
+			 cout<<"Enter the values of bottom left x and y"<<endl;
+ 			cin>>x_br>>y_br;
+ 			for(int i1=x_topleft;i1<=x_br;i1++)
+ 			{
+ 				for(int j1=y_topleft;j1<=y_br;j1++)
+				 {
+				 	int H[256] = {0};
+				 	H[arr[i1][j1]]++;
+				}	
+			}
+ 			int min_val = INT_MAX;
+ 			for(int i=0;i<=255;i++)
+ 			min_val = min(min_val,H[i]);
+ 			for(int i1=x_topleft;i1<=x_br;i1++)
+ 			{
+ 				for(int j1=y_topleft;j1<=y_br;j1++)
+				 {
+				 	if(arr[i1][j1]==min_val)ar.insert({i1,j1})
+				}	
+			}
+			
+		}
+		int exclusion;
+		cout<<"Enter number of exclusion regions"<<endl;
+		cin>>exclusion;
+ 		for(int q=0;q<e)
+ 		
+	}
+}  
+
+
+}
+ 
